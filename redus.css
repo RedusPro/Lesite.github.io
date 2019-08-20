@@ -1,0 +1,637 @@
+
+#particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+	}
+	
+	#zone{
+max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+	}
+	
+	
+body.redus {
+	  background-image: url("images/nasa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+      z-index: -2;
+}
+
+p.redus {
+  font-size: 220px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  letter-spacing: 10px;
+  text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff4f4;
+    margin-top: 0px;
+	    margin-bottom: 0px;
+}
+
+
+a:hover.YOUTUBE {
+
+  font-size: 80px;	
+  background: linear-gradient(to bottom left, #ff0000 0%, #ff99cc 100%);
+    background-position: center; 
+	  background-size: 600px 100px; 
+		  background-repeat: no-repeat;
+  text-align: center;
+  text-decoration: none;
+    color: #ffe8fa;
+	text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+	border-radius: 10% / 40%;
+	
+  
+}
+a.YOUTUBE {
+  font-size: 65px;
+  font-family: 'Jockey One', sans-serif;
+  text-align: center;
+  letter-spacing: 10px;
+    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff1117;
+  transition-property: font-size;
+  transition-duration: 2s;
+          background-image: linear-gradient(to right, #fd0000, #ff2b2b 50%, #ff4f4f);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+      margin-bottom: 5px;
+}
+
+
+a:hover.TWITCH {
+	  font-size: 80px;
+    background: linear-gradient(to bottom left, #6600cc 0%, #ff66ff 100%);
+	    background-position: center; 
+	  background-size: 600px 100px; 
+		  background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	    color: #ffe8fa;
+	text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+	border-radius: 10% / 40%;
+}
+a.TWITCH {
+    font-size: 65px;
+	  color: #660066;
+	  font-family: 'Jockey One', sans-serif;
+	text-align: center;
+	  letter-spacing: 10px;
+	    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	text-decoration: none;
+	  transition-property: font-size;
+  transition-duration: 2s;
+        background-image: linear-gradient(to right, #452e89, #4a3195 50%, #8369cd);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+        margin-bottom: 5px;
+}
+
+a:hover.TWITTER {
+	  font-size: 80px;
+    background: linear-gradient(to bottom left, #0099cc 0%, #40cfff 100%);
+	    background-position: center; 
+	  background-size: 600px 100px; 
+		  background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	    color: #ffe8fa;
+	text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+	border-radius: 10% / 40%;
+}
+a.TWITTER {
+	    font-size: 65px;
+			  color: #0066ff;
+		  font-family: 'Jockey One', sans-serif;
+	text-align: center;
+	  letter-spacing: 10px;
+	    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	text-decoration: none;
+	  transition-property: font-size;
+  transition-duration: 2s;
+      background-image: linear-gradient(to right, #0087f4, #3ed9ff 50%, #9fecff);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;    
+        margin-bottom: 5px;
+}
+
+a:hover.DISCORD {
+  font-size: 80px;
+    background: linear-gradient(to bottom left, #333399 0%, #6699ff 100%);
+	    background-position: center; 
+	  background-size: 600px 100px; 
+		  background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	    color: #ffe8fa;
+	text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+	border-radius: 10% / 40%;
+}	
+a.DISCORD {
+	    font-size: 65px;
+			  color: #9999ff;
+		  font-family: 'Jockey One', sans-serif;
+	text-align: center;
+	  text-decoration: none;
+	  letter-spacing: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	text-decoration: none;
+	  transition-property: font-size;
+  transition-duration: 2s;
+    background-image: linear-gradient(to right, #4255ff, #8c98ff 50%, #b9c0ff);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;  
+        margin-bottom: 5px;
+ 
+}
+
+a:hover.LaJungle {
+	  font-size: 80px;
+    background: linear-gradient(to bottom left, #006600 0%, #62f400 100%);
+		    background-position: center; 
+	  background-size: 600px 100px; 
+		  background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	    color: #ffe8fa;
+	text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+border-radius: 10% / 40%;
+}
+a.LaJungle {
+	    font-size: 65px;
+		color: #2e8c00;
+		  font-family: 'Jockey One', sans-serif;
+	text-align: center;
+	  text-decoration: none;
+	  letter-spacing: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	text-decoration: none;
+	  transition-property: font-size;
+  transition-duration: 2s;
+  background-image: linear-gradient(to right, #2e8c00, #339933 50%, #a4fd9f);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; 
+        margin-bottom: 5px;
+	
+}
+
+
+
+
+
+
+
+
+
+	
+		.notification-wrapper {
+	position: fixed;
+    font-family: 'Jockey One', sans-serif;
+    padding: 10px;
+	font-size: 20px;
+	color: #ffffff;
+	background: #ff2020;
+	border-left: 10px solid #ff3333;
+	width: 200px;
+}
+
+.top-right {
+	right: 35px;
+    top: -100px;
+    animation-direction: normal, reverse;
+    -webkit-animation-direction: normal, reverse;
+    -webkit-animation-name: "top-right";
+    -webkit-animation-duration: 1s;
+    animation-name: "top-right";
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes top-right {
+    0% {top: -100px;}
+    50% {top: -20px;}
+    100% {top: -100px;}
+}
+
+@keyframes top-right {
+    0% {top: -100px;}
+    50% {top: -20px;}
+    100% {top: -100px;}
+}
+.fade-out {
+    -webkit-animation-name: "fade-out-animation";
+    -webkit-animation-duration: 0.1s;
+    animation-name: "fade-out-animation";
+    animation-duration: 0.1s;
+}
+
+@-webkit-keyframes fade-out-animation {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 0;}
+}
+
+@keyframes fade-out-animation {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 0;}
+}
+
+.success {
+	background: #ff3333;
+    border-left-color: #ff5151;
+}
+
+.title-panel {
+    display: inline-block;
+    width: 80%;
+}
+
+.text-panel {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    right: -25px;
+    top: -15px;
+}
+
+.row-class {
+    display: block;
+}
+
+
+
+
+
+
+
+/*
+LA JUNGLE
+*/
+
+
+
+body.lajungle {
+	  background-image: url("images/jungle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+      z-index: -2;
+	  
+}
+
+
+p.LaJungle {
+  font-size: 220px;
+  font-family: 'Condiment', sans-serif;
+  text-align: center;
+  letter-spacing: 10px;
+  text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #42ff4b;
+    margin-top: 0px;
+	    margin-bottom: 0px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+p.LaJungle {
+    min-height: 100%;
+}
+
+p.LaJungle {
+    font-family: 'Condiment', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.LaJungle {
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 240px;
+    height: 4px;
+    margin-left: -120px;
+    content: '';
+    background-color: #fff;
+}
+
+/* Clip text element */
+.clip-text {
+	font-family: 'Condiment', sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+	
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .1em;
+    padding: .30em .30em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+	
+}
+
+
+
+
+/* Change the background position to display letter when the black zone isn't here */
+.clip-text--no-textzone:before {
+    background-position: -.75em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+  background-position: 50% 50%;
+  
+  
+}
+
+
+.clip-text_one {
+    background-image: url(https://www.komar.de/fr/media/catalog/product/cache/6/image/1630dd9ade9402c050107763f906ccdc/8/-/8-989_jungle_trail_web.jpg);
+
+     filter: drop-shadow(0px 0px 5px #0d0d0d);
+}
+
+
+/*
+
+
+
+cliquable
+
+
+
+
+*/
+
+
+a:hover.multigaming {
+
+  font-size: 40px;	
+  background: linear-gradient(to bottom left, #ff0000 0%, #ff99cc 100%);
+    background-position: center; 
+	  background-size: 600px 250px; 
+		  background-repeat: no-repeat;
+  text-align: center;
+  text-decoration: none;
+    color: #ffe8fa;
+	text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+	border-radius: 10% / 40%;
+	
+  
+}
+a.multigaming {
+  font-size: 30px;
+  font-family: 'Jockey One', sans-serif;
+  text-align: center;
+  letter-spacing: 10px;
+    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff1117;
+  transition-property: font-size;
+  transition-duration: 2s;
+          background-image: linear-gradient(to right, #fd0000, #ff2b2b 50%, #ff4f4f);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+      margin-bottom: 5px;
+}
+
+a:hover.discordlajungle {
+  font-size: 40px;
+    background: linear-gradient(to bottom left, #333399 0%, #6699ff 100%);
+	    background-position: center; 
+	  background-size: 600px 100px; 
+		  background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	    color: #ffe8fa;
+	text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+	border-radius: 10% / 40%;
+}
+a.discordlajungle {
+	    font-size: 30px;
+			  color: #9999ff;
+		  font-family: 'Jockey One', sans-serif;
+	text-align: center;
+	  text-decoration: none;
+	  letter-spacing: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	text-decoration: none;
+	  transition-property: font-size;
+  transition-duration: 2s;
+    background-image: linear-gradient(to right, #4255ff, #8c98ff 50%, #b9c0ff);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;  
+        margin-bottom: 5px;
+}
+
+
+
+a:hover.TWITTERlajungle {
+	  font-size: 40px;
+    background: linear-gradient(to bottom left, #0099cc 0%, #40cfff 100%);
+	    background-position: center; 
+	  background-size: 600px 100px; 
+		  background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	    color: #ffe8fa;
+	text-shadow: 5px 0px 4px #0979f7, 0px 5px 5px #ff3737;
+	border-radius: 10% / 40%;
+}
+a.TWITTERlajungle {
+	    font-size: 30px;
+			  color: #0066ff;
+		  font-family: 'Jockey One', sans-serif;
+	text-align: center;
+	  letter-spacing: 10px;
+	    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	text-decoration: none;
+	  transition-property: font-size;
+  transition-duration: 2s;
+      background-image: linear-gradient(to right, #0087f4, #3ed9ff 50%, #9fecff);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;    
+        margin-bottom: 5px;
+}
+
+
+
+
+a.lesitestext {
+	    font-size: 15px;
+		color: #979488;
+		  font-family: 'Jockey One', sans-serif;
+	  text-decoration: none;
+	  letter-spacing: 10px;
+  align-items: center;
+  justify-content: center;
+	text-decoration: none;
+	  transition-property: font-size;
+  transition-duration: 2s;
+  background-image: linear-gradient(to right, #53524a, #979488 50%, #cdccc7);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; 
+vertical-align: 69%;
+     filter: drop-shadow(0px 0px 2px  	#2F4F4F);
+}
+
+img.lesites {
+	  opacity: 0.5;
+  border-radius: 50%;
+    width: 2%;
+     filter: drop-shadow(0px 0px 2px  	#2F4F4F);
+}
+
+#lesite{
+max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+	}
+
+	
+
+//////////////////// LA JUNGLE CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+.pictochat{
+  background-image:url("images/pictochat.png");
+  width:25%;
+  height:500px;
+  background-repeat:no-repeat;
+  background-size:contain;
+    margin-left: auto;
+  margin-right: auto;
+    margin-top: 300px;
+	}
+.pictochatext{
+	font-family: 'Press Start 2P', cursive;
+	  font-size: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1aff;
+     margin-top: 30px;
+		}
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+		
+		
+		
+
+
