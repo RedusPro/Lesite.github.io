@@ -1,0 +1,58 @@
+<html>
+
+<head>
+     <title>REDUS</title>
+ 
+    <link rel="icon" href="images/legrosR.ico" />
+ 
+    <link rel="stylesheet" href="redus.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One|Oswald:500|Press+Start+2P" rel="stylesheet"> 
+     <style>
+@import url('https://fonts.googleapis.com/css?family=Jockey+One|Oswald:500|Press+Start+2P');
+     </style>
+	 
+ <script type="text/javascript" src="notify.js"></script>
+</head>
+
+<body class="redus">
+
+
+   <p class="redus">REDUS</p>
+
+<div id="zone">
+<a class="TWITTER" href="https://twitter.com/Redus_" target="_blank">TWITTER</a>
+<a class="YOUTUBE" href="https://www.youtube.com/c/Redus" target="_blank">YOUTUBE</a>
+<a class="TWITCH" href="https://www.twitch.tv/redusgl" target="_blank">TWITCH</a>
+<a class="DISCORD" href="#"
+onclick="copier()">DISCORD</a>
+<a class="LaJungle" href="La Jungle.html" >La Jungle </a>
+</div>
+
+
+<br>
+
+ <script>
+      function copier() {
+        var copyText = document.getElementById("cord");
+        copyText.style.display = 'block';
+        copyText.focus();
+        copyText.select();
+        document.execCommand('SelectAll');
+        document.execCommand("Copy", false, null);
+        copyText.style.display = 'none';
+        window.notificationService.notify({
+        text: 'Identifiant Discord copi&eacute; !',
+        type: 'success',
+        position: 'top-right',
+        autoClose: true,
+        duration: 1000,
+      })
+      }
+  </script>
+   <input type="text" value="REDUS#0589" id="cord" style="display:none; position: relative; left: -10000px;">  
+</body>
+
+</html>
+
+
