@@ -417,11 +417,16 @@ p.LaJungle {
   
 }
 
+/*
+shadow + image de text la jungle
+*/
+
 
 .clip-text_one {
-    background-image: url(https://www.komar.de/fr/media/catalog/product/cache/6/image/1630dd9ade9402c050107763f906ccdc/8/-/8-989_jungle_trail_web.jpg);
+    background-image: url(images/jungletext.jpg);
 
-     filter: drop-shadow(0px 0px 5px #0d0d0d);
+     filter: drop-shadow(2px 2px 1px  	#DC143C);
+
 }
 
 
@@ -541,7 +546,7 @@ a.TWITTERlajungle {
 
 
 a.lesitestext {
-	    font-size: 15px;
+	    font-size: 20px;
 		color: #979488;
 		  font-family: 'Jockey One', sans-serif;
 	  text-decoration: none;
@@ -556,14 +561,17 @@ a.lesitestext {
   -webkit-background-clip: text;
   background-clip: text; 
 vertical-align: 69%;
-     filter: drop-shadow(0px 0px 2px  	#F0FFFF);
+     filter: drop-shadow(0px 0px 2px  	 	#2F4F4F);
 }
 
 img.lesites {
+	  margin-right: 15px;
+	  padding: 0px;
+	  margin-bottom: 8px;
 	  opacity: 0.5;
   border-radius: 50%;
     width: 2%;
-     filter: drop-shadow(0px 0px 2px  	#F0FFFF);
+     filter: drop-shadow(0px 0px 2px #2F4F4F);
 }
 
 #lesite{
